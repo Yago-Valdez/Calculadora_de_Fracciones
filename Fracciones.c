@@ -72,7 +72,7 @@ struct racional division(struct racional *fraccion,int n){
 }
 int main(int argc, char *argv[]) {
 	int n_racionales = 0 , x = 0;	
-	printf("Con cunatos numeros va atrabajar>");
+	printf("Con cuantos numeros va atrabajar>");
 	scanf("%d",&n_racionales);
 	struct racional fraccion[n_racionales];
 	struct racional regresos;
